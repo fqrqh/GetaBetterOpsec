@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="305" height="213" alt="image" src="https://raw.githubusercontent.com/fqrqh/GetaBetterOpsec/refs/heads/main/logooimg.png" />
+  <img width="205" height="213" alt="image" src="https://raw.githubusercontent.com/fqrqh/GetaBetterOpsec/refs/heads/main/logooimg.png" />
 </p>
 
 <h2 align="center">WindowsUtility</h2>
