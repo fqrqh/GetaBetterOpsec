@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="1005" height="213" alt="image" src="https://github.com/user-attachments/assets/ff12f9b5-5fb7-466c-8566-8f8bfb90b9af" />
+  <img width="1005" height="213" alt="image" src="https://raw.githubusercontent.com/fqrqh/GetaBetterOpsec/refs/heads/main/Capture%20d'%C3%A9cran%202026-06-02%20221440.png" />
 </p>
 
 <h2 align="center">SuperCalc</h2>
