@@ -4,6 +4,7 @@ from system_info import sysinfo
 import webbrowser
 from PIL import Image
 import psutil
+import functions
 import platform
 import os
 import time
@@ -107,7 +108,7 @@ class App(customtkinter.CTk):
             text="Restore Point -Create",
             checkbox_width=13,
             checkbox_height=13,
-            command=self.checkbox,
+ 
             variable=self.check_var,
             onvalue="on",
             offvalue="off"
@@ -120,7 +121,7 @@ class App(customtkinter.CTk):
             text="Disk Cleanup -Enable",
             checkbox_width=13,
             checkbox_height=13,
-            command=self.checkbox,
+
             variable=self.check_var,
             onvalue="on",
             offvalue="off"
@@ -133,7 +134,7 @@ class App(customtkinter.CTk):
             text="Location Tracking -Disable",
             checkbox_width=13,
             checkbox_height=13,
-            command=self.checkbox,
+  
             variable=self.check_var,
             onvalue="on",
             offvalue="off"
@@ -146,7 +147,7 @@ class App(customtkinter.CTk):
             text="Activity History -Disable",
             checkbox_width=13,
             checkbox_height=13,
-            command=self.checkbox,
+    
             variable=self.check_var,
             onvalue="on",
             offvalue="off"
@@ -163,7 +164,7 @@ class App(customtkinter.CTk):
             text="Widget -Remove",
             checkbox_width=13,
             checkbox_height=13,
-            command=self.checkbox,
+
             variable=self.check_var,
             onvalue="on",
             offvalue="off"
@@ -176,7 +177,6 @@ class App(customtkinter.CTk):
             text="Background Apps -Disable",
             checkbox_width=13,
             checkbox_height=13,
-            command=self.checkbox,
             variable=self.check_var,
             onvalue="on",
             offvalue="off"
@@ -189,7 +189,6 @@ class App(customtkinter.CTk):
             text="Fullscreen Optimisation -Disable",
             checkbox_width=13,
             checkbox_height=13,
-            command=self.checkbox,
             variable=self.check_var,
             onvalue="on",
             offvalue="off"
@@ -202,7 +201,6 @@ class App(customtkinter.CTk):
             text="Visual Effects -Enable",
             checkbox_width=13,
             checkbox_height=13,
-            command=self.checkbox,
             variable=self.check_var,
             onvalue="on",
             offvalue="off"
@@ -324,7 +322,6 @@ class App(customtkinter.CTk):
             self,
             text="Apply Tweaks",
             font=("Consolas", 13, "bold"),
-            command=self.anfunc,
             width=180
            
         )
@@ -333,7 +330,6 @@ class App(customtkinter.CTk):
             self,
             text="Remove Tweaks",
             font=("Consolas", 13, "bold"),
-            command=self.hidef,
             width=180
            
         )
@@ -374,17 +370,6 @@ class App(customtkinter.CTk):
         exit()
     
 
-    
-    def anfunc(self):
-       print("jd")
-         
-       
-       
-    def checkbox(self):
-        print("qd")
-    
-    def hidef(self):
-        print("jdz")
 
     
 
