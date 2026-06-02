@@ -61,7 +61,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## 📌Author
 
 👤 **fqrqh**
-- Github: [@kishanrajput23](https://github.com/fqrqh)
+- Github: [@fqrqh](https://github.com/fqrqh)
 
 ## 📌Show your support
 
