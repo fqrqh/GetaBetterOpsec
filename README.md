@@ -5,7 +5,7 @@
 <h2 align="center">WindowsUtility</h2>
 
 <p align="center">
-  <img width="1005" height="213" alt="image" src="https://raw.githubusercontent.com/fqrqh/GetaBetterOpsec/refs/heads/main/Capture%20d'%C3%A9cran%202026-06-02%20221440.png" />
+  <img width="1005" height="213" alt="image" src="https://raw.githubusercontent.com/fqrqh/GetaBetterOpsec/refs/heads/main/image%20(7).png" />
 </p>
 
 <p align="center">
