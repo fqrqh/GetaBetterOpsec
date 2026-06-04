@@ -17,7 +17,7 @@
 
 ## WindowsUtility 
 
-**This project is simple desktop app built with python, WindowsUtility can help you tweaks your computer. This project is NOT fully completed so expect bugs. It was compiled in VS Code Editor.**
+**This project is a simple desktop app built with python, WindowsUtility can help you tweaks your computer. This project is NOT fully completed so expect bugs. It was compiled in VS Code Editor.**
 
 ## Requirements
 customtkinter  
