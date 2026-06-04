@@ -21,15 +21,10 @@
 
 ## Requirements
 customtkinter  
-
 pwinauto   
- 
 time  
-
 psutil  
-
 os  
-
 pillow  
 
 platform (info)  
