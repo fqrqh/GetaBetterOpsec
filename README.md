@@ -59,7 +59,7 @@ Python 3.6+
 
 3. **Watch the little demo!**
 
-   ![Supercalc Demo](https://raw.githubusercontent.com/fqrqh/Supercalc/refs/heads/main/ezgif-2024c69fd30efc80%20(2).gif)
+   ![Supercalc Demo](https://raw.githubusercontent.com/fqrqh/WindowsUtility/refs/heads/main/previewgif.gif)
 
 ## UPDATE
 Added Shell Execution commands (not working for now)
