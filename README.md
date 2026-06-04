@@ -57,6 +57,10 @@ Python 3.6+
     ```
   - Your Done !!!
 
+3. **Watch the little demo!**
+
+   ![Supercalc Demo](https://raw.githubusercontent.com/fqrqh/Supercalc/refs/heads/main/ezgif-2024c69fd30efc80%20(2).gif)
+
 ## UPDATE
 Added Shell Execution commands (not working for now)
 
