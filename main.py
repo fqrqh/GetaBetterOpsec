@@ -23,11 +23,11 @@ class App(customtkinter.CTk):
 
         self.geometry("890x500")
         self.title("WindowsUtility")
-        self.iconbitmap('ascii-art.ico')
+        self.iconbitmap('icon.ico')
 
 
         my_image = customtkinter.CTkImage(
-        light_image=Image.open("ascii-art.ico"),
+        light_image=Image.open("icon.ico"),
          
         size=(150, 150)
         )
@@ -241,6 +241,7 @@ class App(customtkinter.CTk):
         self,
         text="Dark Theme for Windows",
         variable=self.switch_var,
+        command=self.darktheme,
         onvalue="on",
         offvalue="off"
         )
@@ -337,7 +338,7 @@ class App(customtkinter.CTk):
         self.button2 = customtkinter.CTkButton(
             self,
             font=("Consolas", 13, "bold"),
-            text="Selected Tweaks : 0",
+            text="",
             width=180
            
         )
@@ -370,8 +371,16 @@ class App(customtkinter.CTk):
         exit()
     
 
-
     
+
+    def darktheme(self):
+
+        commandt = "reg add HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize /v AppsUseLightTheme /t REG_DWORD /d 0 /f"
+        self.button2.configure(text="Done")
+        os.system(commandt)
+        print("done")
+
+
 
 # os.getlogin()
 app = App()
