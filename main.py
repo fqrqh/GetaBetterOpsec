@@ -304,7 +304,7 @@ class App(customtkinter.CTk):
 
 
 
-
+print("Getting the github rated shi")
 
 
 
