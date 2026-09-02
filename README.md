@@ -15,6 +15,12 @@
   <img src="https://img.shields.io/badge/Version-3.5.1-blue?style=for-the-badge" alt="Version 3">
 </p>
 
+
+
+##🚨 INFORMATION 🚨
+* Deleted all the functions for a big rework coming soon trust!
+
+
 ## WindowsUtility 
 
 **This project is a simple desktop app built with python, WindowsUtility can help you tweaks your computer. This project is NOT fully completed so expect bugs. It was compiled in VS Code Editor.**
